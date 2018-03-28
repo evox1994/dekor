@@ -37,4 +37,13 @@ $(document).ready(function(){
         }, 300);
     });
 
+    $('.gallery-list li').click(function(){
+        if ( $(this).hasClass("active") ) {
+            $('.gallery-list li').removeClass("active");
+        } else {
+            $('.gallery-list li').removeClass("active");
+            $(this).addClass("active");
+        }
+    });
+
 });
