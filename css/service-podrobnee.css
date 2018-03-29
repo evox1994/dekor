@@ -1,0 +1,159 @@
+.b-1 {
+	color: #ffffff;
+	min-height: calc(100vh - 82px);
+}
+.b-1 .b-block {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.service-caption {
+	position: relative;
+	display: block;
+	padding-bottom: 25px;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.service-caption::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	max-width: 570px;
+	height: 5px;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-color: rgb(206, 192, 164);
+}
+.b-1-slider {
+	padding: 0 50px;
+	display: block;
+	margin-bottom: 20px;
+}
+.b-1-slide {
+	margin: 0 10px;
+	position: relative;
+}
+.b-1-slide a {
+	display: block;
+}
+.b-1-slide a img {
+	display: block;
+	width: 100%;
+}
+.b-1-slider .slick-arrow {
+	position: absolute;
+	top: calc(50% - 20px);
+	display: block;
+	background-color: transparent;
+	border: 0;
+	font-size: 0;
+	width: 22px;
+	height: 41px;
+}
+.b-1-slider .slick-arrow:hover {
+	cursor: pointer;
+}
+.b-1-slider .slick-prev {
+	left: 0;
+	background-image: url("../i/arr-prev.png");
+}
+.b-1-slider .slick-next {
+	right: 0;
+	background-image: url("../i/arr-next.png");
+}
+.b-1-text {
+	margin: 0 auto 20px;
+	font-size: 16px;
+	line-height: 1.2;
+	max-width: 780px;
+	width: 100%;
+}
+.b-1-submit {
+	margin: 0 auto;
+	padding: 20px 80px;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid rgb(205, 191, 163);
+	box-sizing: border-box;
+	max-width: 580px;
+	width: 100%;
+}
+.submit-caption {
+	font-size: 22px;
+	margin-bottom: 16px;
+	line-height: 1.2;
+}
+.b-1-submit form {
+	display: block;
+	max-width: 275px;
+	width: 100%;
+	margin: 0 auto 10px;
+}
+.b-1-submit input {
+	padding: 15px 0;
+	font-size: 20px;
+	border: 1px solid rgb(199, 187, 162);
+	border-radius: 3px;
+	text-align: center;
+	color: #ffffff;
+	background-color: transparent;
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.b-1-submit input::-webkit-input-placeholder {color:#ffffff;}
+.b-1-submit input::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+.b-1-submit input:-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+.b-1-submit input:-ms-input-placeholder      {color:#ffffff;}
+.b-1-submit input:focus::-webkit-input-placeholder {color:transparent;}
+.b-1-submit input:focus::-moz-placeholder          {color:transparent;}/* Firefox 19+ */
+.b-1-submit input:focus:-moz-placeholder           {color:transparent;}/* Firefox 18- */
+.b-1-submit input:focus:-ms-input-placeholder      {color:transparent;}
+.b-1-submit button {
+	display: block;
+	width: 100%;
+	border: 0;
+	padding: 15px 0;
+	font-size: 20px;
+	border-radius: 3px;
+	position: relative;
+	background-color: #efbf60;
+	color: #ffffff;
+}
+.b-1-submit button::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0;
+	background-color: rgb(169, 122, 30);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1-submit button:hover {
+	background-color: rgb(217, 172, 83);
+	text-decoration: none;
+	cursor: pointer;
+}
+.b-1-submit button:hover:before {
+	height: 6px;
+}
+.button-text {
+	font-size: 12px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.b-1-submit {
+		padding: 20px 10px;
+	}
+}
+
