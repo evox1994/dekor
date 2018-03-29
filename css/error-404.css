@@ -1,0 +1,53 @@
+.b-1 {
+	color: #ffffff;
+	height: calc(100vh - 82px);
+}
+.b-1 .b-block {
+	height: 100%;
+}
+.b-1-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.b-1-cell {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.b-1-text {
+	text-align: right;
+}
+.b-1-caption {
+	padding-bottom: 25px;
+	display: block;
+	border-bottom: 5px solid rgb(206, 192, 164);
+	font-size: 46px;
+	line-height: 1.2;
+	margin-bottom: 30px;
+	text-align: right;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.b-1-text p {
+	display: block;
+	text-align: right;
+	font-size: 28px;
+}
+
+
+@media screen and (max-width: 1279px) {
+	.b-1 {
+		height: calc(100vh - 114px);
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.b-1-caption {
+		font-size: 32px;
+	}
+	.b-1-text p {
+		font-size: 20px;
+	}
+}
