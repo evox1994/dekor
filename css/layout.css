@@ -286,6 +286,20 @@ input.error,textarea.error{
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
+.footer .social-list li img {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.footer .social-list li:hover img {
+	-webkit-filter: hue-rotate(180deg);
+	-moz-filter: hue-rotate(180deg);
+	-ms-filter: hue-rotate(180deg);
+	-o-filter: hue-rotate(180deg);
+	filter: hue-rotate(180deg);
+}
 .footer-info {
 	display: inline-block;
 	vertical-align: top;

@@ -15,6 +15,14 @@
 	padding: 30px;
 	background-color: rgba(0,0,0,0.5);
 	border: 1px solid rgb(205, 191, 163);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.b-1-info:hover {
+	border-color: #efbf60;
 }
 .b-1-info img {
 	display: inline-block;
