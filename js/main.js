@@ -38,12 +38,24 @@ $(document).ready(function(){
     });
 
     $('.gallery-list li').click(function(){
-        if ( $(this).hasClass("active") ) {
-            $('.gallery-list li').removeClass("active");
-        } else {
+        var el = $(this).data("item");
+        if ( !($(this).hasClass("active")) ) {
             $('.gallery-list li').removeClass("active");
             $(this).addClass("active");
+            $('.gallery-item').removeClass("active");
+            setTimeout(function(){$(el).addClass("active");},500);
         }
+    });
+
+    $('.gallery-mobile-btn button').click(function(){
+        if ( $(this).hasClass("active") ) {
+            $(this).removeClass("active");
+            $('.gallery-list').removeClass("active");
+        } else {
+            $(this).addClass("active");
+            $('.gallery-list').addClass("active");
+        }
+        $('html, body').animate({ scrollTop: 50 }, 500);
     });
 
     $('.fancybox').fancybox();
