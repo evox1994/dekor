@@ -35,6 +35,10 @@
 .gallery-list li:hover {
 	cursor: pointer;
 }
+.gallery-list li a {
+	display: block;
+	color: #ffffff;
+}
 .gallery-block {
 	display: inline-block;
 	vertical-align: top;

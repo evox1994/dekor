@@ -37,13 +37,11 @@ $(document).ready(function(){
         }, 300);
     });
 
-    $('.gallery-list li').click(function(){
-        var el = $(this).data("item");
+    $('.gallery-list li a').click(function(){
+        var el = $(this).attr("href");
         if ( !($(this).hasClass("active")) ) {
             $('.gallery-list li').removeClass("active");
-            $(this).addClass("active");
-            $('.gallery-item').removeClass("active");
-            setTimeout(function(){$(el).addClass("active");},500);
+            $(this).parent().addClass("active");
         }
     });
 
