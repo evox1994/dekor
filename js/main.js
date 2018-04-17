@@ -73,7 +73,7 @@ $(document).ready(function(){
 
     if ( $(window).width() < 768 ) {
         $('video').attr('controls','controls');
-        $('#video').get(0).play();
+        $('video').get(0).play();
     }
 
 });
