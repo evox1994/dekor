@@ -359,8 +359,11 @@ input.error,textarea.error{
 		padding-top: 114px;
 	}
 	.background video {
+		position: absolute;
+		top: 0;
+		left: 0;
 		width: auto;
-		height: 100vh;
+		height: calc(100vh + 100px);
 	}
 	.b-block {
 		max-width: 720px;
@@ -400,9 +403,6 @@ input.error,textarea.error{
 @media screen and (max-width: 767px){
 	.b-block {
 		padding: 0 10px;
-	}
-	.background video {
-		width: auto;
 	}
 	.header-nav {
 		display: none;
@@ -481,7 +481,6 @@ input.error,textarea.error{
 	.background video {
 		position: absolute;
 		top: 0;
-		left: -10%;
-		width: auto;
+		left: -60%;
 	}
 }
