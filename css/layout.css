@@ -412,9 +412,6 @@ input.error,textarea.error{
 	.background video {
 		display: none;
 	}
-	.background-gif {
-		display: block;
-	}
 	.header-nav {
 		display: none;
 	}
