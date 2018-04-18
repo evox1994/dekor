@@ -360,7 +360,7 @@ input.error,textarea.error{
 	}
 	.background video {
 		position: absolute;
-		top: 0;
+		bottom: 0;
 		left: 0;
 		width: auto;
 		height: calc(100vh + 100px);
@@ -403,6 +403,12 @@ input.error,textarea.error{
 @media screen and (max-width: 767px){
 	.b-block {
 		padding: 0 10px;
+	}
+	.background video {
+		display: none;
+	}
+	.background {
+		background-image: url("../i/video.gif");
 	}
 	.header-nav {
 		display: none;
@@ -474,13 +480,5 @@ input.error,textarea.error{
 	}
 	.mobile-menu.active {
 		display: block;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.background video {
-		position: absolute;
-		top: 0;
-		left: -60%;
 	}
 }
