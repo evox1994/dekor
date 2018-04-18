@@ -100,6 +100,14 @@ input.error,textarea.error{
 	background-size: cover;
 	background-image: url("../i/background-image.jpg");
 }
+.background-gif {
+	display: none;
+	width: 100%;
+	height: 100vh;
+	background-position: center bottom;
+	background-size: cover;
+	background-image: url("../i/video.gif");
+}
 .background-item {
 	position: absolute;
 	top: 0;
@@ -359,9 +367,6 @@ input.error,textarea.error{
 		padding-top: 114px;
 	}
 	.background video {
-		position: absolute;
-		bottom: 0;
-		left: 0;
 		width: auto;
 		height: calc(100vh + 100px);
 	}
@@ -407,8 +412,8 @@ input.error,textarea.error{
 	.background video {
 		display: none;
 	}
-	.background {
-		background-image: url("../i/video.gif");
+	.background-gif {
+		display: block;
 	}
 	.header-nav {
 		display: none;
