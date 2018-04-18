@@ -80,15 +80,4 @@ $(document).ready(function(){
         }, 18500);
     }
 
-    $(window).resize(function(){
-        if ( $(window).width() < 768 ) {
-            setTimeout(function(){
-                $('.background-gif').css('display','block');
-            }, 4000);
-            setTimeout(function(){
-                $('.background-gif').css('display','none');
-            }, 18500);
-        }
-    });
-
 });
