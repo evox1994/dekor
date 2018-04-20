@@ -80,4 +80,7 @@ $(document).ready(function(){
         }, 18500);
     }
 
+    var mdate = new Date();
+    $('.footer-year').text(mdate.getFullYear());
+
 });
