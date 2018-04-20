@@ -104,7 +104,7 @@ input.error,textarea.error{
 	display: none;
 	width: 100%;
 	height: 100vh;
-	background-position: center bottom;
+	background-position: 35% bottom;
 	background-size: cover;
 	background-image: url("../i/video.gif");
 }
@@ -409,6 +409,9 @@ input.error,textarea.error{
 @media screen and (max-width: 767px){
 	.b-block {
 		padding: 0 10px;
+	}
+	.background {
+		background-position: 35% bottom;
 	}
 	.background video {
 		display: none;

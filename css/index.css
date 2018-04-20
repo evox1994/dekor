@@ -143,6 +143,9 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+	.b-1 .main-caption {
+		margin-bottom: 100vh;
+	}
 	.b-1-table, .b-2-table {
 		display: block;
 	}
